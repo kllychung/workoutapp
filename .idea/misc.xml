@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/circular_bar.xml" value="0.335" />
+        <entry key="app/src/main/res/drawable/circular_bar_grey.xml" value="0.2445" />
+        <entry key="app/src/main/res/drawable/drawable_radio_group_tab_background.xml" value="0.3545" />
+        <entry key="app/src/main/res/drawable/drawable_units_tab_text_color_selector.xml" value="0.3545" />
+        <entry key="app/src/main/res/drawable/item_circular_background_grey.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.2445" />
+        <entry key="app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/item_circular_thin_color_accent_border.xml" value="0.2835" />
+        <entry key="app/src/main/res/drawable/item_color_accent_border_ripple.xml" value="0.491" />
+        <entry key="app/src/main/res/drawable/units_tab_selector.xml" value="0.3545" />
+        <entry key="app/src/main/res/layout/activity_bmi.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_exercise.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_finish.xml" value="0.2749094202898551" />
+        <entry key="app/src/main/res/layout/activity_finish_exercise.xml" value="0.2749094202898551" />
+        <entry key="app/src/main/res/layout/activity_history.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_custom_back_confirmation.xml" value="0.25203252032520324" />
+        <entry key="app/src/main/res/layout/item_exercise_status.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_history.xml" value="0.335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

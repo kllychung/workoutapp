@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Are you sure ?"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="This will stop your workout. Are you sure you want to quit ?" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <Button
+        android:id="@+id/btnYes"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:text="Yes" />
+    <Button
+        android:id="@+id/btnNo"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="0dp"
+        android:textSize="16sp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="No" />
+    </LinearLayout>
+</LinearLayout>
