@@ -41,7 +41,7 @@ class HistoryActivity : AppCompatActivity() {
             historyDao.fetchAllHistory().collect(){ allCompletedDates->
                 if (allCompletedDates!= null){
                     val datesList = ArrayList<HistoryEntity>(allCompletedDates)
-                    Log.e("LIST ",datesList.toString())
+
                     val historyAdapter = HistoryAdapter(datesList)
 
                     binding?.rvHistory?.adapter = historyAdapter

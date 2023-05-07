@@ -40,10 +40,8 @@ class Finish_Activity : AppCompatActivity() {
         val c = Calendar.getInstance()
         val dateTime = c.time
 
-
         val sdt = SimpleDateFormat("dd MMM yyyy HH:MM:SS", Locale.getDefault())
         val formattedDate = sdt.format(dateTime)
-        Log.e("Date is ", formattedDate)
 
         lifecycleScope.launch {
             historyDao.insert(HistoryEntity(formattedDate))

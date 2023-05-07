@@ -13,7 +13,6 @@ abstract class HistoryDatabase(): RoomDatabase() {
     companion object {
 
         @Volatile //Value is not cached!  Writes and read done via main memory
-        // Change visible to
         private var INSTANCE: HistoryDatabase?= null
 
         fun getInstance(context: Context): HistoryDatabase{
