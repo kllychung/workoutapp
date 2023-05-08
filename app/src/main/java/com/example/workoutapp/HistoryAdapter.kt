@@ -1,7 +1,6 @@
 package com.example.workoutapp
 
 import android.graphics.Color
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -32,7 +31,6 @@ class HistoryAdapter(val list: ArrayList<HistoryEntity>):RecyclerView.Adapter<Hi
     }
 
     override fun getItemCount(): Int {
-        Log.e("list size ",list.size.toString())
         return list.size
     }
 }

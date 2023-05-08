@@ -139,7 +139,6 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun setupRestView(){
-
         try {
             val soundURI =
                 Uri.parse("android.resource://com.example.workoutapp/"+ R.raw.press_start)
