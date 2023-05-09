@@ -1,15 +1,15 @@
-package com.example.workoutapp
+package com.example.workoutapp.espressoTests
 
 import android.content.Context
-import android.view.View
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.ViewInteraction
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.MediumTest
+import com.example.workoutapp.*
+import com.example.workoutapp.pages.HistoryPage
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.runTest
 import org.hamcrest.CoreMatchers.*
@@ -27,12 +27,6 @@ class HistoryActivityTests {
     private lateinit var historyDao: HistoryDao
     private val date = "24 JAN 2019 12:01:03"
 
-    companion object{
-        val tvHistoryLabel : ViewInteraction = onView(withId(R.id.tvHistoryLabel))
-        val toolBarHistory : ViewInteraction = onView(withId(R.id.toolBarHistory))
-        var rvHistory : ViewInteraction  = onView(withId(R.id.rv_history))
-    }
-
     @Before
     fun setup(){
         db = (ApplicationProvider.getApplicationContext<Context>() as HistoryApp).db
@@ -42,10 +36,10 @@ class HistoryActivityTests {
 
     @Test
     fun verifyDateHistoryIsDisplayed(){
-        rvHistory.check(matches(not(isDisplayed())))
+        HistoryPage.rvHistory.check(matches(not(isDisplayed())))
         insertData()
-        tvHistoryLabel.check(matches(isDisplayed()))
-        rvHistory.check(matches(isDisplayed()))
+        HistoryPage.tvHistoryLabel.check(matches(isDisplayed()))
+        HistoryPage.rvHistory.check(matches(isDisplayed()))
         onView(withText(date)).check(matches(isDisplayed()))
     }
 

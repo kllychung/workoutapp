@@ -2,7 +2,6 @@ package com.example.workoutapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.BoringLayout
 import android.view.View
 import android.widget.Toast
 import com.example.workoutapp.databinding.ActivityBmiBinding
@@ -61,7 +60,7 @@ class BMIActivity : AppCompatActivity() {
             }
             else {
                 Toast.makeText(this@BMIActivity, "Please enter valid value",
-                    Toast.LENGTH_SHORT).show()
+                    Toast.LENGTH_LONG).show()
             }
         }
         else {

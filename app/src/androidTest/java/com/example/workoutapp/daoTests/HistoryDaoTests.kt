@@ -72,5 +72,4 @@ class HistoryDaoTest {
     fun closeDb() {
         db.close()
     }
-
 }
