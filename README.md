@@ -1,7 +1,7 @@
 ## workoutapp
 Android app that 
-1. lets user go through an exercise routine. Each exercise is timed.
-2. calculates their bmi in english units and metric units
+1. lets user go through a series of exercises. Each exercise is timed.
+2. allows a user to calculate bmi in english units and metric units
 3. records user's history of completed exercises 
 
 ## Installation
