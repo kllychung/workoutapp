@@ -11,7 +11,7 @@ git clone https://github.com/kllychung/workoutapp.git
 ```
 ## Tests
 This repo contains android instrumented tests(medium tests)
-1. DAO tests which creates a in memory database to test database implementation
+1. DAO tests which uses a in memory database to test database data manipulation
 2. Espresso tests which verify app functionality
 3. Snapshot test using Shopify Testify (Note that this repo contains screenshot for an emulator Pixel 5 API 33 )
 
